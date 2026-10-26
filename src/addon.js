@@ -7,8 +7,8 @@ const { toStreams } = require('./streams');
 const { UpstreamError } = require('./http');
 
 const manifest = {
-  id: 'community.vidlink.allqualities', version: '1.0.4', name: 'VidLink · All Qualities',
-  description: 'Fresh VidLink movie and TV streams, with every available quality listed separately.',
+  id: 'community.vidlink.allqualities', version: '1.0.4', name: 'VidLink',
+  description: 'VidLink resolver for direct streams.',
   catalogs: [], types: ['movie', 'series'],
   resources: [{ name: 'stream', types: ['movie', 'series'], idPrefixes: ['tt', 'tmdb:'] }]
 };
