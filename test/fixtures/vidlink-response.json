@@ -1,0 +1,28 @@
+{
+  "sourceId": "mwVault",
+  "stream": {
+    "id": "primary",
+    "type": "file",
+    "qualities": {
+      "360": {
+        "type": "mp4",
+        "url": "https://bcdn.hakunaymatata.com/resource/h265/198c42f690759b5dd62a3f89a9117f7b.mp4?sign=503877799f446df25345b7a954ba33de&t=1792938920",
+        "codecName": "hevc", "size": "79387284", "resourceId": "4985778467162702920", "linkType": 2,
+        "se": 1, "ep": 25, "headers": {}, "requiresProxy": true
+      },
+      "480": {
+        "type": "mp4",
+        "url": "https://bcdn.hakunaymatata.com/resource/h265/22e5ac0dc0bfd5af7050c47e5e6ce9d9.mp4?sign=d9c3943513f7d854e3ca45a5bb80e14c&t=1792938921",
+        "codecName": "hevc", "size": "129393205", "resourceId": "5428020275990383056", "linkType": 2,
+        "se": 1, "ep": 25, "headers": {}, "requiresProxy": true
+      },
+      "1080": {
+        "type": "mp4",
+        "url": "https://bcdn.hakunaymatata.com/cms/e1a1a893c66c677a70b22fff0d38af0a.mp4?sign=eb94985bd1e05c97dba5b037aaa6f5f3&t=1792938921",
+        "codecName": "h264", "size": "1022718528", "resourceId": "3711959839401297760", "linkType": 2,
+        "se": 1, "ep": 25, "headers": {}, "requiresProxy": true
+      }
+    },
+    "captions": [], "flags": ["cors-allowed"], "TTL": 3600, "deliveryType": "file"
+  }
+}

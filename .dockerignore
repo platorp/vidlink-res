@@ -1,0 +1,9 @@
+node_modules
+.git
+.env
+.env.*
+*.log
+screenshots
+test
+verification.json
+public-verification.json

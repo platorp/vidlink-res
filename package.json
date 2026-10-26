@@ -1,0 +1,19 @@
+{
+  "name": "stremio-vidlink-addon",
+  "version": "1.0.4",
+  "private": true,
+  "description": "Resolve fresh VidLink movie and TV streams in every available quality.",
+  "license": "MIT",
+  "engines": { "node": ">=22.14.0" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "test": "node --test",
+    "token": "node --env-file-if-exists=.env scripts/token.js",
+    "check": "node --env-file-if-exists=.env scripts/check.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "stremio-addon-sdk": "1.6.10",
+    "tweetnacl": "1.0.3"
+  }
+}

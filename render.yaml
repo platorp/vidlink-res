@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: vidlink-addon
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: PROXY_SECRET
+        generateValue: true
